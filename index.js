@@ -9,4 +9,4 @@ app.get('/', (req, res) => {
 });
 
 //Indica que a aplicação deve ouvir a porta 3001
-app.listen(3001);
+app.listen(process.env.PORT || 3000);
